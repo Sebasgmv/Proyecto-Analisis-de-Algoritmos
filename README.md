@@ -1,4 +1,4 @@
-# Proyecto-An-lisis-de-Algoritmos
+# Proyecto-Análisis-de-Algoritmos
 Grupo de Trabajo:
 --------------------------------
 Mariana Rojas Galavís.
