@@ -1,0 +1,85 @@
+\documentclass[10pt,twocolumn]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+
+
+\usepackage{listings}
+\usepackage{color} %red, green, blue, yellow, cyan, magenta, black, white
+\definecolor{mygreen}{RGB}{28,172,0} % color values Red, Green, Blue
+\definecolor{mylilas}{RGB}{170,55,241}
+
+\lstset{language=Matlab,%
+	%basicstyle=\color{red},
+	breaklines=true,%
+	morekeywords={matlab2tikz},
+	keywordstyle=\color{blue},%
+	morekeywords=[2]{1}, keywordstyle=[2]{\color{black}},
+	identifierstyle=\color{black},%
+	stringstyle=\color{mylilas},
+	commentstyle=\color{mygreen},%
+	showstringspaces=false,%without this there will be a symbol in the places where there is a space
+	%numbers=left,%
+	%numberstyle={\tiny \color{black}},% size of the numbers
+	numbersep=9pt, % this defines how far the numbers are from the text
+	emph=[1]{for,end,break},emphstyle=[1]\color{red}, %some words to emphasise
+	%emph=[2]{word1,word2}, emphstyle=[2]{style},    
+}
+
+\author{D.\\
+	\small \textit{Universidad Pontificia Javeriana}\\
+	\small \today}
+\title{\textbf{Analisis de Algoritmos}}
+\date{\vspace{-5ex}}
+
+\begin{document}
+	
+	\twocolumn[
+	\begin{@twocolumnfalse}
+		\maketitle
+		\begin{abstract}
+			\begin{center}
+			Resumen: Incluye un título descriptivo para tu artículo, seguido de un resumen breve y conciso del contenido que se va a tratar.
+				
+			\end{center}
+		\end{abstract}
+		KEYWORDS: \textit{\\ \\}
+	\end{@twocolumnfalse}
+	]
+	
+	\section{Introducción}
+	
+	 En esta sección, describe el problema que se va a abordar en el artículo y su importancia en la teoría de la complejidad y análisis de algoritmos. También es importante incluir un poco de contexto histórico y la relevancia del problema que se va a tratar.
+	
+	\section{Marco Teorico}
+	
+	En esta sección, describe los conceptos teóricos que se utilizarán para el análisis de los algoritmos y las estructuras de datos empleadas. Además, incluye referencias a los trabajos relevantes previos en el área.
+	
+
+	
+	\section{Descripcion del problema}
+	
+	En esta sección, describe el juego sencillo que se va a utilizar como caso de estudio, incluyendo una descripción de las reglas del juego, los objetivos y los posibles desafíos que deben ser superados.
+	
+	
+	\section{Analisis de algoritmos}
+	
+	En esta sección, describe los algoritmos que se van a analizar y sus características. Es importante incluir el pseudocódigo de los algoritmos, su complejidad temporal y espacial, y una justificación de por qué se seleccionaron.
+	
+	\section{Implementacion y resultados}
+	
+	En esta sección, describe cómo se implementaron los algoritmos en el juego sencillo y los resultados obtenidos. Incluye tablas y gráficas para mostrar los resultados de la implementación y comparaciones entre los algoritmos.
+	
+	\section{Discusion y conclusiones}
+	
+	En esta sección, discute los resultados obtenidos, la eficacia de los algoritmos en el contexto del problema, y cualquier limitación o aspecto a mejorar. También es importante incluir posibles aplicaciones futuras y las lecciones aprendidas en la implementación de los algoritmos.
+	
+		
+\bibliographystyle{ieeetr}
+\bibliography{mybib}
+	
+	
+\end{document}
